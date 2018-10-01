@@ -72,7 +72,7 @@ while(not is_over):
 
     line=regexify.code_creator(line)
     arr['data'] = line + ' '
-    print(line)
+    print("line%s"%line)
 
     ws.send(json.dumps(arr))
 
